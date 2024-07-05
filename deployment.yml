@@ -1,0 +1,16 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: push_events_to_kafka
+  namespace: wht-calculator
+spec:
+  completions: 1
+  parallelism: 1
+  template:
+    spec:
+      containers:
+        - name: push_manual_events_to_kafka
+          image: "941154566110.dkr.ecr.us-east-1.amazonaws.com/push_manual_events_to_kafka:latest"
+          command: ["python", "/app/python_to_kafka.py"]
+      restartPolicy: Never
+  backoffLimit: 4

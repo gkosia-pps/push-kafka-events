@@ -1,0 +1,279 @@
+[
+    {
+        "key": "mt4_edge14_14800004",
+        "testing_case": "MT4 user, under Bafin, profitable deal",
+        "value": {
+            "clientTradingPlatform": "Mobile",
+            "executionTime": 1720182758000,
+            "loginGroup": "EUR-DE-RR-000-X",
+            "profit": 70.65,
+            "commission": 0,
+            "rawSymbol": "XAUUSD.r",
+            "dealType": "sell",
+            "direction": "OUT",
+            "dealPosition": "5767908",
+            "dealId": "5767908",
+            "symbol": "XAUUSD",
+            "metadata": {
+                "reportedTime": 1720182758000,
+                "receivedTime": 1720182758556
+            },
+            "volumeLots": 1,
+            "serverId": "mt4_edge14",
+            "isDeleted": false,
+            "extra": "{\"swaps\":0}",
+            "schemaVersion": "2",
+            "login": "14800004",
+            "comment": "",
+            "price": 2375.29,
+            "tradeVolume": 1,
+            "guid": "09ebcb53-4b1d-3f0b-91f8-b0e7b2720ea8"
+        }
+    },
+    {
+        "key": "mt4_edge14_14800004",
+        "testing_case": "MT4 user, under Bafin, Non profitable deal",
+        "value": {
+            "clientTradingPlatform": "Mobile",
+            "executionTime": 1720182758000,
+            "loginGroup": "EUR-DE-RR-000-X",
+            "profit": -70.65,
+            "commission": 0,
+            "rawSymbol": "XAUUSD.r",
+            "dealType": "sell",
+            "direction": "OUT",
+            "dealPosition": "5767909",
+            "dealId": "5767909",
+            "symbol": "XAUUSD",
+            "metadata": {
+                "reportedTime": 1720182758000,
+                "receivedTime": 1720182758556
+            },
+            "volumeLots": 1,
+            "serverId": "mt4_edge14",
+            "isDeleted": false,
+            "extra": "{\"swaps\":0}",
+            "schemaVersion": "2",
+            "login": "14800004",
+            "comment": "",
+            "price": 2375.29,
+            "tradeVolume": 1,
+            "guid": "09ebcb53-4b1d-3f0b-91f8-b0e7b2720ea8"
+        }
+    },
+    {
+        "key": "mt5_02_52007706",
+        "testing_case": "MT5 user, under Bafin,  profitable deal",
+        "value": {
+            "clientTradingPlatform": "SL",
+            "executionTime": 1720183432000,
+            "loginGroup": "EUR-DE-RR-000-X",
+            "profit": 10.13,
+            "commission": 0,
+            "rawSymbol": "XAUUSD",
+            "dealType": "buy",
+            "direction": "OUT",
+            "dealPosition": "16125830",
+            "dealId": "14606511",
+            "symbol": "XAUUSD",
+            "metadata": {
+                "reportedTime": 1720183432000,
+                "receivedTime": 1720183432579
+            },
+            "volumeLots": 2,
+            "serverId": "mt5_02",
+            "isDeleted": false,
+            "extra": "{\"order\":16126240,\"external_id\":\"79682351\",\"swaps\":0}",
+            "schemaVersion": "2",
+            "login": "52007706",
+            "comment": "[sl 2368.68]",
+            "price": 2368.72,
+            "tradeVolume": 200,
+            "guid": "44f40157-dce0-3bc5-a2c1-f1c0079616aa"
+        }
+    },
+    {
+        "key": "mt5_02_52007706",
+        "testing_case": "MT5 user, under Bafin, non  profitable deal",
+        "value": {
+            "clientTradingPlatform": "SL",
+            "executionTime": 1720183432000,
+            "loginGroup": "EUR-DE-RR-000-X",
+            "profit": -20.13,
+            "commission": 0,
+            "rawSymbol": "XAUUSD",
+            "dealType": "buy",
+            "direction": "OUT",
+            "dealPosition": "16125830",
+            "dealId": "14606511",
+            "symbol": "XAUUSD",
+            "metadata": {
+                "reportedTime": 1720183432000,
+                "receivedTime": 1720183432579
+            },
+            "volumeLots": 2,
+            "serverId": "mt5_02",
+            "isDeleted": false,
+            "extra": "{\"order\":16126240,\"external_id\":\"79682351\",\"swaps\":0}",
+            "schemaVersion": "2",
+            "login": "52007706",
+            "comment": "[sl 2368.68]",
+            "price": 2368.72,
+            "tradeVolume": 200,
+            "guid": "44f40157-dce0-3bc5-a2c1-f1c0079616aa"
+        }
+    },
+    {
+        "key": "mt5_02_52000016",
+        "testing_case": "MT5 user, NOT Bafin, profitable deal",
+        "value": {
+            "clientTradingPlatform": "SL",
+            "executionTime": 1720183432000,
+            "loginGroup": "GBP-UK-RS-000-X",
+            "profit": 25.13,
+            "commission": 0,
+            "rawSymbol": "XAUUSD",
+            "dealType": "buy",
+            "direction": "OUT",
+            "dealPosition": "16125831",
+            "dealId": "14606512",
+            "symbol": "XAUUSD",
+            "metadata": {
+                "reportedTime": 1720183432000,
+                "receivedTime": 1720183432579
+            },
+            "volumeLots": 2,
+            "serverId": "mt5_02",
+            "isDeleted": false,
+            "extra": "{\"order\":16126240,\"external_id\":\"79682351\",\"swaps\":0}",
+            "schemaVersion": "2",
+            "login": "52000016",
+            "comment": "[sl 2368.68]",
+            "price": 2368.72,
+            "tradeVolume": 200,
+            "guid": "44f40157-dce0-3bc5-a2c1-f1c0079616aa"
+        }
+    },
+    {
+        "key": "cTrader02_2007174",
+        "testing_case": "Ctrader user, under Bafin, profitable deal",
+        "value": {
+            "clientTradingPlatform": "cTrader",
+            "executionTime": 1720184118075,
+            "loginGroup": "EUR-DE-RS-000-X",
+            "profit": 90.6,
+            "commission": 0,
+            "rawSymbol": "EURUSD_SB",
+            "dealType": "sell",
+            "direction": "OUT",
+            "dealPosition": "18549307",
+            "dealId": "30963589",
+            "symbol": "EURUSD_SB",
+            "metadata": {
+                "reportedTime": 1720184118075,
+                "receivedTime": 1720184118550
+            },
+            "volumeLots": 40000,
+            "serverId": "cTrader02",
+            "isDeleted": false,
+            "extra": "{\"trade_order_id\":33219177,\"deal_order_type\":\"MarketOrder\",\"swaps\":0}",
+            "schemaVersion": "2",
+            "login": "2007174",
+            "price": 1.0826,
+            "tradeVolume": 4000000,
+            "guid": "6e299b15-9026-35f3-9a1b-be2b4066863b"
+        }
+    },
+    {
+        "key": "cTrader02_2007174",
+        "testing_case": "Ctrader user, under Bafin, non profitable deal",
+        "value": {
+            "clientTradingPlatform": "cTrader",
+            "executionTime": 1720184118075,
+            "loginGroup": "EUR-DE-RS-000-X",
+            "profit": -90.6,
+            "commission": 0,
+            "rawSymbol": "EURUSD_SB",
+            "dealType": "sell",
+            "direction": "OUT",
+            "dealPosition": "18549308",
+            "dealId": "30963588",
+            "symbol": "EURUSD_SB",
+            "metadata": {
+                "reportedTime": 1720184118075,
+                "receivedTime": 1720184118550
+            },
+            "volumeLots": 40000,
+            "serverId": "cTrader02",
+            "isDeleted": false,
+            "extra": "{\"trade_order_id\":33219177,\"deal_order_type\":\"MarketOrder\",\"swaps\":0}",
+            "schemaVersion": "2",
+            "login": "2007174",
+            "price": 1.0826,
+            "tradeVolume": 4000000,
+            "guid": "6e299b15-9026-35f3-9a1b-be2b4066863b"
+        }
+    },
+    {
+        "key": "DX_ld_34000009",
+        "testing_case": "Centrum user, under Bafin,  profitable deal",
+        "value": {
+            "clientTradingPlatform": "dxsca",
+            "executionTime": 1720187114155,
+            "loginGroup": "EUR-DE-RS-000-X",
+            "profit": 55.34,
+            "commission": 0,
+            "rawSymbol": "GBPAUD",
+            "dealType": "sell",
+            "direction": "OUT",
+            "dealPosition": "2979309",
+            "dealId": "2979506",
+            "symbol": "GBPAUD",
+            "metadata": {
+                "reportedTime": 1720187114155,
+                "receivedTime": 1720187114250
+            },
+            "volumeLots": 1000,
+            "serverId": "DX_ld",
+            "isDeleted": false,
+            "extra": "{\"trade_order_id\":2979342}",
+            "schemaVersion": "2",
+            "login": "34000009",
+            "comment": "",
+            "price": 1.90038,
+            "tradeVolume": 1000,
+            "guid": "35d749d6-94df-362a-b278-34906c12f7b4"
+        }
+    },
+    {
+        "key": "DX_ld_34000009",
+        "testing_case": "Centrum user, under Bafin,  non profitable deal",
+        "value": {
+            "clientTradingPlatform": "dxsca",
+            "executionTime": 1720187114155,
+            "loginGroup": "EUR-DE-RS-000-X",
+            "profit": -55.34,
+            "commission": 0,
+            "rawSymbol": "GBPAUD",
+            "dealType": "sell",
+            "direction": "OUT",
+            "dealPosition": "2979308",
+            "dealId": "2979504",
+            "symbol": "GBPAUD",
+            "metadata": {
+                "reportedTime": 1720187114155,
+                "receivedTime": 1720187114250
+            },
+            "volumeLots": 1000,
+            "serverId": "DX_ld",
+            "isDeleted": false,
+            "extra": "{\"trade_order_id\":2979342}",
+            "schemaVersion": "2",
+            "login": "34000009",
+            "comment": "",
+            "price": 1.90038,
+            "tradeVolume": 1000,
+            "guid": "35d749d6-94df-362a-b278-34906c12f7b4"
+        }
+    }
+]

@@ -1,0 +1,117 @@
+[
+    {
+        "key": "34000009",
+        "testing_case": "Centrum user, under Bafin, positive swap",
+        "value": {
+            "serverID": 420,
+            "reportedTimestamp": 1720167617682,
+            "server": "DX_ld",
+            "isMAM": false,
+            "group": "EUR-DE-RS-000-X",
+            "currency": "EUR",
+            "id": "DX_ld:2971356",
+            "direction": 0,
+            "status": "",
+            "isIB": false,
+            "amount": 1000,
+            "createdTimestamp": 1720167617763,
+            "dealID": "2971356",
+            "extra": "",
+            "login": 34000009,
+            "comment": "Swap transfer for account 34000009, position 12345 GBPCAD on May 06, 2024: -0.31 EUR (Short 8000, SwapRate=-0.57, InterestRate=0, Conv. Rate=0.67947 converted from -0.46 CAD)",
+            "executionTimestamp": 1720167617682
+        }
+    },
+    {
+        "key": "34000009",
+        "testing_case": "Centrum user, under Bafin, Non positive swap",
+        "value": {
+            "serverID": 420,
+            "reportedTimestamp": 1720167617682,
+            "server": "DX_ld",
+            "isMAM": false,
+            "group": "EUR-DE-RS-000-X",
+            "currency": "EUR",
+            "id": "DX_ld:2971399",
+            "direction": 0,
+            "status": "",
+            "isIB": false,
+            "amount": -1000,
+            "createdTimestamp": 1720167617763,
+            "dealID": "2971399",
+            "extra": "",
+            "login": 34000009,
+            "comment": "Swap transfer for account 34000009, position 45678 GBPCAD on May 06, 2024: -0.31 EUR (Short 8000, SwapRate=-0.57, InterestRate=0, Conv. Rate=0.67947 converted from -0.46 CAD)",
+            "executionTimestamp": 1720167617682
+        }
+    },
+    {
+        "key": "34000009",
+        "testing_case": "Centrum user, under Bafin,  positive Rollover transaction",
+        "value": {
+            "serverID": 420,
+            "reportedTimestamp": 1720167617682,
+            "server": "DX_ld",
+            "isMAM": false,
+            "group": "EUR-DE-RS-000-X",
+            "currency": "EUR",
+            "id": "DX_ld:2971399",
+            "direction": 0,
+            "status": "",
+            "isIB": false,
+            "amount": 9999,
+            "createdTimestamp": 1720167617763,
+            "dealID": "2971399",
+            "extra": "",
+            "login": 34000009,
+            "comment": "RO #5656",
+            "executionTimestamp": 1720167617682
+        }
+    },
+    {
+        "key": "34000009",
+        "testing_case": "Centrum user, under Bafin, non positive Rollover transaction",
+        "value": {
+            "serverID": 420,
+            "reportedTimestamp": 1720167617682,
+            "server": "DX_ld",
+            "isMAM": false,
+            "group": "EUR-DE-RS-000-X",
+            "currency": "EUR",
+            "id": "DX_ld:2971399",
+            "direction": 0,
+            "status": "",
+            "isIB": false,
+            "amount": -9999,
+            "createdTimestamp": 1720167617763,
+            "dealID": "2971399",
+            "extra": "",
+            "login": 34000009,
+            "comment": "RO #2323",
+            "executionTimestamp": 1720167617682
+        }
+    },
+    {
+        "key": "34000099",
+        "testing_case": "Centrum user, not Bafin,  positive Rollover transaction",
+        "value": {
+            "serverID": 420,
+            "reportedTimestamp": 1720167617682,
+            "server": "DX_ld",
+            "isMAM": false,
+            "group": "EUR-DE-RS-000-X",
+            "currency": "EUR",
+            "id": "DX_ld:2971399",
+            "direction": 0,
+            "status": "",
+            "isIB": false,
+            "amount": 9999,
+            "createdTimestamp": 1720167617763,
+            "dealID": "2971399",
+            "extra": "",
+            "login": 34000099,
+            "comment": "RO #1111",
+            "executionTimestamp": 1720167617682
+        }
+    }
+]
